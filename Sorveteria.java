@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class Main {
+public class Sorveteria {
     public static void main (String[]args){
         Scanner scanner = new Scanner(System.in);
         int qtdSorvetes = 0;
@@ -72,21 +72,12 @@ public class Main {
                 }
             }
 
-            System.out.println(" \nResumo do Pedido:");
-            System.out.println("Quantidade de Sorvetes: " + qtdSorvetes);
-            System.out.println("\nValor Total: R$" + valorTotal);
-            System.out.println("\nObrigado pela preferência!");
-            scanner.close();
         }
-    }   }
+        System.out.println(" \nResumo do Pedido:");
+        System.out.println("Quantidade de Sorvetes: " + qtdSorvetes);
+        System.out.println("\nValor Total: R$" + valorTotal);
+        System.out.println("\nObrigado pela preferência!");
 
-
-
-
-
-
-
-
-
-
-
+        scanner.close();
+    }
+}
